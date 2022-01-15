@@ -90,3 +90,28 @@ padding: 20px 10px;
 .fa-facebook, .fa-instagram-square, .fa-youtube, .fa-twitter{
     margin-right: 15px;
 }
+
+/* Media Queries */
+/* mobile devies */
+@media only screen and (max-width: 688px){
+   main{
+       width: 220px;
+   }
+       
+    
+    .journey-story{
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+    .collections{
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 10px;
+    }
+    .footer-container{
+        width: 100%;
+        margin: 0;
+        
+    }
+}
+ 
