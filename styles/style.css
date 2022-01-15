@@ -38,6 +38,9 @@ font-family: 'Poppins', sans-serif;
     transition: 4s ease-in-out;
 }
 /* top collection  styles */
+.collection-container{
+    margin-bottom: 100px;
+}
 
  #section-title{
     text-align: center;
@@ -69,7 +72,7 @@ font-family: 'Poppins', sans-serif;
     color: goldenrod;
 } 
 .extra-collection{
-    margin-left: 1320px;
+    margin-left: 875px;
 
 }
 .extra-collection a{
@@ -77,6 +80,20 @@ text-decoration: none;
 color: brown;
 font-size: 1.5em;
 
+}
+/* artificial intelligent styles */
+.artificial-intelligent{
+    display: flex;
+    margin-left: 100px;
+}
+.detailes{
+    margin-left: 80px;
+}
+.cource-info a{
+text-decoration: none;
+background-color: brown;
+color: white;
+padding: 10px 5px;
 }
 /* footer styles */
 .footer-container{
@@ -94,11 +111,6 @@ padding: 20px 10px;
 /* Media Queries */
 /* mobile devies */
 @media only screen and (max-width: 688px){
-   main{
-       width: 220px;
-   }
-       
-    
     .journey-story{
         flex-direction: column;
         margin: 0;
@@ -106,7 +118,11 @@ padding: 20px 10px;
     }
     .collections{
         grid-template-columns: repeat(1, 1fr);
-        margin-bottom: 10px;
+        margin-bottom: 0;
+    }
+    .artificial-intelligent{
+        flex-direction: column;
+        margin: 50px;
     }
     .footer-container{
         width: 100%;
